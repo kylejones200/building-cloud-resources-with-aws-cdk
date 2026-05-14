@@ -38,11 +38,11 @@ Working with CDK constructs transforms the cloud infrastructure setup from a ted
 ### How to use the AWS Construct Library
 Using AWS to build applications or infrastructure involves several services and tools. Below is a simple introduction to key services like EC2, S3, Lambda, and RDS, along with how to combine these services to create an application or solution.
 
-**1. EC2 (Elastic Compute Cloud)**
+1. EC2 (Elastic Compute Cloud)
 
 EC2 provides scalable virtual servers, allowing you to run various operating systems and applications in the cloud.
 
-**How to use**
+How to use
 
 - Log into the AWS console and navigate to EC2.
 - Choose "Launch Instance" and select an AMI (Amazon Machine Image) based on your needs, configuring CPU, memory, and storage.
@@ -50,15 +50,15 @@ EC2 provides scalable virtual servers, allowing you to run various operating sys
 - Assign an elastic IP address to ensure a fixed IP address for the instance.
 - Connect to the instance: use SSH to connect to Linux or RDP for Windows instances.
 
-**Use cases**
+Use cases
 
 This is useful for running web servers or databases and handling long-running computation tasks.
 
-**2. S3 (Simple Storage Service)**
+2. S3 (Simple Storage Service)
 
 S3 provides object storage, ideal for storing any data file type, like images, videos, backups, and more.
 
-**How to use**
+How to use
 
 - Log into the AWS console and navigate to S3.
 - Create an S3 bucket to store your data files.
@@ -68,11 +68,11 @@ S3 allows you to control access with bucket policies, making files public or acc
 
 Enable versioning control can track changes to objects over time.
 
-**Use cases**
+Use cases
 
 This is useful for storing static resources such as images, videos, and documents. You can also use S3 as backup storage or large data analysis.
 
-**3. Lambda (Serverless Computing)**
+3. Lambda (Serverless Computing)
 
 Lambda is a serverless computing service that allows you to run code without managing servers. Code is executed by triggering events, like an S3 file upload or an API request.
 
@@ -82,17 +82,17 @@ How to use
 - Create a Lambda function: choose a runtime (like Python, Node.js, or Java), and either upload your code or write it directly in the console.
 - Set up triggers: Lambda functions can be triggered by S3, API Gateway, CloudWatch, and more.
 - Set permissions: use IAM roles to control Lambda's access to other AWS services.
-- Deploy**:** Lambda functions scale automatically and charge based on the number of executions.
+- Deploy: Lambda functions scale automatically and charge based on the number of executions.
 
-**Use cases**
+Use cases
 
 This is often used to build serverless APIs. It can also be used for processing S3 file uploads (e.g., image processing, video conversion) and running background tasks or automation.
 
-**4. RDS (Relational Database Service)**
+4. RDS (Relational Database Service)
 
 RDS provides managed relational databases such as MySQL, PostgreSQL, SQL Server, and Oracle.
 
-**How to use**
+How to use
 
 - Log into the AWS console and navigate to RDS.
 - Create a database instance: Choose the engine and configure the instance type, storage, and backup settings.
@@ -100,7 +100,7 @@ RDS provides managed relational databases such as MySQL, PostgreSQL, SQL Server,
 - Use the provided RDS endpoint to connect to the database.
 - Set up automatic backups and monitoring.
 
-**Use cases**
+Use cases
 
 This is useful for hosting relational databases to support applications. You can also use it for managing database clusters to ensure high availability and disaster recovery.
 

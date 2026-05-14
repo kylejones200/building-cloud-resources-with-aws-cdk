@@ -1,7 +1,7 @@
 # Building cloud resources with AWS CDK
 
-**Published:** 2024-09-30
-**Medium:** [https://medium.com/@kyle-t-jones/building-cloud-resources-with-aws-cdk-7a8ee677e309](https://medium.com/@kyle-t-jones/building-cloud-resources-with-aws-cdk-7a8ee677e309)
+Published: 2024-09-30
+Medium: [https://medium.com/@kyle-t-jones/building-cloud-resources-with-aws-cdk-7a8ee677e309](https://medium.com/@kyle-t-jones/building-cloud-resources-with-aws-cdk-7a8ee677e309)
 
 ## About
 
